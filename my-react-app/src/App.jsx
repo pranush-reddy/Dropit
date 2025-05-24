@@ -1,7 +1,6 @@
 // src/App.jsx
 import React, { useState, useRef, useEffect } from "react";
-
-const SIGNALING_SERVER_URL = "ws://192.168.0.4:8080/ws";
+const SIGNALING_SERVER_URL = "https://dropit-9j77.onrender.com/ws";
 
 export default function App() {
   const [logs, setLogs] = useState([]);
