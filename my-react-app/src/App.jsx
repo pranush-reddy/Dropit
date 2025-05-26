@@ -3,7 +3,7 @@ import { ulid } from "ulid";
 import { QRCodeSVG } from "qrcode.react";
 import { Scanner } from "@yudiel/react-qr-scanner";
 import './App.css'
-const SIGNALING_SERVER_URL = "ws://https://dropit-9j77.onrender.com/ws"; // Update with your server IP
+const SIGNALING_SERVER_URL = "wss://dropit-9j77.onrender.com/ws";
 
 export default function App() {
   const [logs, setLogs] = useState([]);
