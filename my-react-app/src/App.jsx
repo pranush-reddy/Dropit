@@ -152,7 +152,7 @@ export default function App() {
       return;
     }
 
-    const chunkSize = 16 * 1024; 
+    const chunkSize = 64 * 1024; 
     let fileIndex = 0;
     let offset = 0;
     const reader = new FileReader();
