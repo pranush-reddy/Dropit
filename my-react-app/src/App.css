@@ -13,7 +13,7 @@ body {
 }
 
 h2, h3 {
-  color: #a78bfa; /* lighter violet */
+  color: #a78bfa;
 text-align: center;
 padding-top: 2%;
 }
@@ -48,10 +48,10 @@ select, button, input[type="file"] {
 }
 button.main{
      position: fixed;
-  bottom: 5vh; /* 2% viewport height from the bottom */
+  bottom: 5vh;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 0; /* override previous margin if needed */
+  margin-bottom: 0; 
   z-index: 1000;
   width: 40vw;
   height: 5vh;
@@ -164,7 +164,7 @@ button:hover:not(:disabled) {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Vertically centers children */
+  align-items: center;
   color: white;
   height: 12vh;
   padding: 0 0px;
@@ -177,7 +177,7 @@ p{
 
 .toggle-role {
   display: flex;
-  align-items: center; /* Ensures button is centered vertically */
+  align-items: center;
 }
 
 .toggle-role button {
