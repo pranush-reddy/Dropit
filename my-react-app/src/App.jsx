@@ -4,7 +4,7 @@ import { QRCodeSVG } from "qrcode.react";
 import { Scanner } from "@yudiel/react-qr-scanner";
 import './App.css';
 
-const SIGNALING_SERVER_URL = "wss://dropit-9j77.onrender.com/ws"; 
+const SIGNALING_SERVER_URL = process.env.WEBSIGNAL;
 
 export default function App() {
   const [notification, setNotification] = useState("");
